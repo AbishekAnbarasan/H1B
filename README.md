@@ -6,7 +6,7 @@ Wanna know whether your case status will get approved if you apply for H1-B visa
   - [ Data Description ](#desc)
   - [ EDA ](#eda)
   - [ Result ](#res)
-  
+  - [ Conclusion ](#con)
   
 <a name='intro'></a>
 ### Introduction:
@@ -59,19 +59,29 @@ The data pre-processing involed:
 |:--:|
 | *Mean annual wage of Jobs* |
 
-
-
 <a name='res'></a>
 ### Result:
 
-| Model |	Predictive Accuracy |	Precision Positive | Precision | Negative |	Error Rate | Sensitivity	Specificity |
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+The best model obtained is using Support Vector Machine as you can see from the table below. Thia is the background algorithm used in the webpage.
+
+| Model |	Predictive Accuracy |	Precision Positive | Precision Negative |	Error Rate | Sensitivity | Specificity |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | LOGISTIC REGRESSION |	33.95 |	26.38	| 34.97 |	66.05 |	32.53	| 34.97 | 
-| K- NEAREST NEIGHBOUR (KNN) | 66.95 | 78.92	| 70.81 |	33.05 |	64.66 | 70.81 |
-| CART | 64.63 | 70.34 |	65.06 |	35.36 |	64.29 |	65.06 |
+| K- NEAREST NEIGHBOUR (KNN) | 66.95 | 78.92 | 70.81 | 33.05 | 64.66 | 70.81 |
+| CART | 64.63 | 70.34 | 65.06 | 35.36 | 64.29 | 65.06 |
 | RANDOM FOREST |	73.05 |	82.49 |	77.25 |	26.94 |	70.31 |	77.25 |
 | GRADIENT BOOSTING |	67.63	| 75.78 |	69.67 |	32.37 |	66.21 |	69.67 |
-| SUPPORT VECTOR MACHINE (SVM)	| 78.69 |	88.12 |	84.50 |	21.30 |	74.91 |	84.50 |
+| **SUPPORT VECTOR MACHINE (SVM)** | **78.69** | **88.12** | **84.50** | **21.30** |	**74.91** |	**84.50** |
+
+ | ![variable importance](images/var.jpeg) |
+|:--:|
+| *Variable Importance plot* |
+
+
+<a name='con'></a>
+### Conclusion:
+
+Well, Don't choose fields other than software :P. As you can see, the sofware field is where the most applications were filed, more favourable results were seen and the wage is pretty. But, people who followed their passion by choosing other fields, if you want to have better chance of getting your H1-B approved, target specific companies that sponser more applicants in their respecive field and in most prosperous states like california, washington, etc as seen in the inference and finally, find a job that pays you highhhh! 
 
 <a name="table"></a>
 ### Data features
