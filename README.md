@@ -73,7 +73,7 @@ The best model obtained is using Support Vector Machine as you can see from the 
 | GRADIENT BOOSTING |	67.63	| 75.78 |	69.67 |	32.37 |	66.21 |	69.67 |
 | **SUPPORT VECTOR MACHINE (SVM)** | **78.69** | **88.12** | **84.50** | **21.30** |	**74.91** |	**84.50** |
 
- | ![variable importance](images/var.jpeg) |
+ | ![variable importance](images/var.JPG) |
 |:--:|
 | *Variable Importance plot* |
 
