@@ -33,7 +33,32 @@ The data pre-processing involed:
 <a name='eda'></a>
 ### Exploratory Data Analysis: 
 
- 
+| ![Mean Annual wage](images/10.png) | 
+|:--:| 
+| [ **Mean Annual wage of data analysts/scientist** ] ( https://rpubs.com/aanbara/641014 ) |
+
+
+| ![Mean Annual wage distribution per state](images/2.jpeg) | 
+|:--:| 
+| *Mean Annual wage distribution per state* |
+
+| ![Total applications per state](images/3.jpeg) | 
+|:--:| 
+| *Total applications per state* |
+
+ | ![Total employers](images/4.jpeg) | 
+|:--:| 
+| *Top 10 employers with most applications filed* |
+
+
+ | ![Top ocuupations](images/6.jpeg) | ![Mean wage](images/8.jpeg)
+|:--:|:--: 
+| *Top 25 occupations based on no. of applicants* | *Mean annual wage of Data Analysts/Scientists based on states*
+
+ | ![Mean wage over years](images/e3.jpeg) |
+|:--:|
+| *Mean annual wage of Jobs* |
+
 <a name="table"></a>
 ### Data features
 | Field | Meaning |
