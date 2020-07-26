@@ -35,7 +35,7 @@ The data pre-processing involed:
 
 | ![Mean Annual wage](images/10.png) | 
 |:--:| 
-| [ **Mean Annual wage of data analysts/scientist** ] ( https://rpubs.com/aanbara/641014 ) |
+| **Mean Annual wage of data analysts/scientist** ( https://rpubs.com/aanbara/641014 ) |
 
 
 | ![Mean Annual wage distribution per state](images/2.jpeg) | 
@@ -58,6 +58,20 @@ The data pre-processing involed:
  | ![Mean wage over years](images/e3.jpeg) |
 |:--:|
 | *Mean annual wage of Jobs* |
+
+
+
+<a name='res'></a>
+### Result:
+
+| Model |	Predictive Accuracy |	Precision Positive | Precision | Negative |	Error Rate | Sensitivity	Specificity |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| LOGISTIC REGRESSION |	33.95 |	26.38	| 34.97 |	66.05 |	32.53	| 34.97 | 
+| K- NEAREST NEIGHBOUR (KNN) | 66.95 | 78.92	| 70.81 |	33.05 |	64.66 | 70.81 |
+| CART | 64.63 | 70.34 |	65.06 |	35.36 |	64.29 |	65.06 |
+| RANDOM FOREST |	73.05 |	82.49 |	77.25 |	26.94 |	70.31 |	77.25 |
+| GRADIENT BOOSTING |	67.63	| 75.78 |	69.67 |	32.37 |	66.21 |	69.67 |
+| SUPPORT VECTOR MACHINE (SVM)	| 78.69 |	88.12 |	84.50 |	21.30 |	74.91 |	84.50 |
 
 <a name="table"></a>
 ### Data features
