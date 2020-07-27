@@ -66,8 +66,8 @@ The best model obtained is using Support Vector Machine as you can see from the 
 
 | Model |	Predictive Accuracy |	Precision Positive | Precision Negative |	Error Rate | Sensitivity | Specificity |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| LOGISTIC REGRESSION |	33.95 |	26.38	| 34.97 |	66.05 |	32.53	| 34.97 | 
-| K- NEAREST NEIGHBOUR (KNN) | 66.95 | 78.92 | 70.81 | 33.05 | 64.66 | 70.81 |
+| LOGISTIC REGRESSION |	63.95 |	66.38	| 64.97 |	36.05 |	62.53	| 64.97 | 
+| naive Bayes Classifier | 66.95 | 78.92 | 70.81 | 33.05 | 64.66 | 70.81 |
 | CART | 64.63 | 70.34 | 65.06 | 35.36 | 64.29 | 65.06 |
 | RANDOM FOREST |	73.05 |	82.49 |	77.25 |	26.94 |	70.31 |	77.25 |
 | GRADIENT BOOSTING |	67.63	| 75.78 |	69.67 |	32.37 |	66.21 |	69.67 |
